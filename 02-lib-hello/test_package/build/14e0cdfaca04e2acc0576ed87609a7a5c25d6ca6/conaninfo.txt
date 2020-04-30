@@ -21,7 +21,7 @@
     os=Linux
 
 [full_requires]
-    hello/0.1@demo/test2:de9c231f84c85def9df09875e1785a1319fa8cb6
+    hello/0.1@demo/lib:de9c231f84c85def9df09875e1785a1319fa8cb6
 
 [full_options]
     hello:shared=False

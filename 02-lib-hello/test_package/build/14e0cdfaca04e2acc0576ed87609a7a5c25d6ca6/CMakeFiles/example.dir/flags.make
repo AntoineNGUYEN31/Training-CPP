@@ -6,5 +6,5 @@ CXX_FLAGS =   -m64 -O3 -DNDEBUG
 
 CXX_DEFINES = -D_GLIBCXX_USE_CXX11_ABI=0
 
-CXX_INCLUDES = -I/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include 
+CXX_INCLUDES = -I/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include 
 

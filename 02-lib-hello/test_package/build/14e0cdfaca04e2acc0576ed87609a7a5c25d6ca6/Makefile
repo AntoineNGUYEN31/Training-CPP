@@ -48,10 +48,10 @@ RM = /run/media/minwoo/SOFTWARE/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package
+CMAKE_SOURCE_DIR = /home/minwoo/TMP/Training-CPP/02-lib-hello/test_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6
+CMAKE_BINARY_DIR = /home/minwoo/TMP/Training-CPP/02-lib-hello/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/CMakeFiles /home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/minwoo/TMP/Training-CPP/02-lib-hello/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/CMakeFiles /home/minwoo/TMP/Training-CPP/02-lib-hello/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/minwoo/TMP/Training-CPP/02-lib-hello/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

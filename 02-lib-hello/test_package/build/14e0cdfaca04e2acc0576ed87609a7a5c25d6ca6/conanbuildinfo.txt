@@ -1,8 +1,8 @@
 [includedirs]
-/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include
+/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include
 
 [libdirs]
-/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib
+/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib
 
 [bindirs]
 
@@ -11,7 +11,7 @@
 
 
 [builddirs]
-/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/
+/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/
 
 [libs]
 hello
@@ -48,10 +48,10 @@ hello
 
 
 [includedirs_hello]
-/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include
+/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include
 
 [libdirs_hello]
-/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib
+/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib
 
 [bindirs_hello]
 
@@ -60,7 +60,7 @@ hello
 
 
 [builddirs_hello]
-/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/
+/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/
 
 [libs_hello]
 hello
@@ -96,7 +96,7 @@ hello
 
 
 [rootpath_hello]
-/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6
+/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6
 
 [name_hello]
 hello

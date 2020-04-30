@@ -33,13 +33,13 @@ endmacro()
 #################
 ###  HELLO
 #################
-set(CONAN_HELLO_ROOT "/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6")
-set(CONAN_INCLUDE_DIRS_HELLO "/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include")
-set(CONAN_LIB_DIRS_HELLO "/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib")
+set(CONAN_HELLO_ROOT "/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6")
+set(CONAN_INCLUDE_DIRS_HELLO "/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include")
+set(CONAN_LIB_DIRS_HELLO "/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib")
 set(CONAN_BIN_DIRS_HELLO )
 set(CONAN_RES_DIRS_HELLO )
 set(CONAN_SRC_DIRS_HELLO )
-set(CONAN_BUILD_DIRS_HELLO "/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/")
+set(CONAN_BUILD_DIRS_HELLO "/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/")
 set(CONAN_FRAMEWORK_DIRS_HELLO )
 set(CONAN_LIBS_HELLO hello)
 set(CONAN_PKG_LIBS_HELLO hello)
@@ -88,8 +88,8 @@ set(CONAN_CMD_SHARED_LINKER_FLAGS ${CONAN_SHARED_LINKER_FLAGS})
 set(CONAN_CMD_C_FLAGS ${CONAN_C_FLAGS})
 # Defining accumulated conan variables for all deps
 
-set(CONAN_INCLUDE_DIRS "/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include" ${CONAN_INCLUDE_DIRS})
-set(CONAN_LIB_DIRS "/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib" ${CONAN_LIB_DIRS})
+set(CONAN_INCLUDE_DIRS "/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/include" ${CONAN_INCLUDE_DIRS})
+set(CONAN_LIB_DIRS "/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/lib" ${CONAN_LIB_DIRS})
 set(CONAN_BIN_DIRS  ${CONAN_BIN_DIRS})
 set(CONAN_RES_DIRS  ${CONAN_RES_DIRS})
 set(CONAN_FRAMEWORK_DIRS  ${CONAN_FRAMEWORK_DIRS})
@@ -100,7 +100,7 @@ set(CONAN_FRAMEWORKS  ${CONAN_FRAMEWORKS})
 set(CONAN_FRAMEWORKS_FOUND "")  # Will be filled later
 set(CONAN_DEFINES  ${CONAN_DEFINES})
 set(CONAN_BUILD_MODULES_PATHS  ${CONAN_BUILD_MODULES_PATHS})
-set(CONAN_CMAKE_MODULE_PATH "/home/minwoo/.conan/data/hello/0.1/demo/test2/package/de9c231f84c85def9df09875e1785a1319fa8cb6/" ${CONAN_CMAKE_MODULE_PATH})
+set(CONAN_CMAKE_MODULE_PATH "/home/minwoo/.conan/data/hello/0.1/demo/lib/package/de9c231f84c85def9df09875e1785a1319fa8cb6/" ${CONAN_CMAKE_MODULE_PATH})
 
 set(CONAN_CXX_FLAGS " ${CONAN_CXX_FLAGS}")
 set(CONAN_SHARED_LINKER_FLAGS " ${CONAN_SHARED_LINKER_FLAGS}")

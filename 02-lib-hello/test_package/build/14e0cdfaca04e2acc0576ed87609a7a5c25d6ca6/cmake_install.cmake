@@ -1,4 +1,4 @@
-# Install script for directory: /home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package
+# Install script for directory: /home/minwoo/TMP/Training-CPP/02-lib-hello/test_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/minwoo/TMP/Training-CPP/02-lib-hello/test_package/build/14e0cdfaca04e2acc0576ed87609a7a5c25d6ca6/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -3,15 +3,15 @@
  "graph_lock": {
   "nodes": {
    "0": {
-    "pref": "None/None@demo/test2:82688b850d2cd77a2911445c5c1860f9c8f19bd9",
+    "pref": "None/None@demo/lib:82688b850d2cd77a2911445c5c1860f9c8f19bd9",
     "options": "hello:shared=False",
     "requires": [
      "1"
     ],
-    "path": "/home/minwoo/TMP/Training-CPP/02-lib-hello_BU/test_package/conanfile.py"
+    "path": "/home/minwoo/TMP/Training-CPP/02-lib-hello/test_package/conanfile.py"
    },
    "1": {
-    "pref": "hello/0.1@demo/test2#2627fcd11ef7cd25ca67d01c2f831c80:de9c231f84c85def9df09875e1785a1319fa8cb6#5d2d9883102969ad1c4ad69a4c36a8d7",
+    "pref": "hello/0.1@demo/lib#2627fcd11ef7cd25ca67d01c2f831c80:de9c231f84c85def9df09875e1785a1319fa8cb6#b21623ab7939eec9737b5a06b054c1e9",
     "options": "shared=False",
     "modified": "built"
    }
