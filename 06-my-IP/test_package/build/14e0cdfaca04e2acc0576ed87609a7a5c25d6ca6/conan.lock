@@ -1,0 +1,43 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=4.8\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "pref": "None/None@user/channel:a7d867209ef77351fc51f21d8bd9f2b749b04781",
+    "options": "OpenSSL:386=False\nOpenSSL:fPIC=True\nOpenSSL:no_asm=False\nOpenSSL:no_async=False\nOpenSSL:no_bf=False\nOpenSSL:no_cast=False\nOpenSSL:no_des=False\nOpenSSL:no_dh=False\nOpenSSL:no_dsa=False\nOpenSSL:no_dso=False\nOpenSSL:no_hmac=False\nOpenSSL:no_md2=False\nOpenSSL:no_md5=False\nOpenSSL:no_mdc2=False\nOpenSSL:no_rc2=False\nOpenSSL:no_rc4=False\nOpenSSL:no_rc5=False\nOpenSSL:no_rsa=False\nOpenSSL:no_sha=False\nOpenSSL:no_sse2=False\nOpenSSL:no_threads=False\nOpenSSL:no_zlib=False\nOpenSSL:openssldir=None\nOpenSSL:shared=False\nlibcurl:custom_cacert=False\nlibcurl:disable_threads=False\nlibcurl:fPIC=True\nlibcurl:shared=False\nlibcurl:with_brotli=False\nlibcurl:with_largemaxwritesize=False\nlibcurl:with_ldap=False\nlibcurl:with_libidn=False\nlibcurl:with_libmetalink=False\nlibcurl:with_libpsl=False\nlibcurl:with_librtmp=False\nlibcurl:with_libssh2=False\nlibcurl:with_nghttp2=False\nlibcurl:with_openssl=True\nmyIP:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "1"
+    ],
+    "path": "/home/minwoo/TMP/Training-CPP/06-my-IP/test_package/conanfile.py"
+   },
+   "1": {
+    "pref": "myIP/0.1@user/channel#1d162a3abfb0467a2f307dc0c5e26e7b:674eefcd35add5fa26900cd0ec75ec6bd3f15c8f#049255ed64e3481c6721e424ebfa9cae",
+    "options": "shared=False\nOpenSSL:386=False\nOpenSSL:fPIC=True\nOpenSSL:no_asm=False\nOpenSSL:no_async=False\nOpenSSL:no_bf=False\nOpenSSL:no_cast=False\nOpenSSL:no_des=False\nOpenSSL:no_dh=False\nOpenSSL:no_dsa=False\nOpenSSL:no_dso=False\nOpenSSL:no_hmac=False\nOpenSSL:no_md2=False\nOpenSSL:no_md5=False\nOpenSSL:no_mdc2=False\nOpenSSL:no_rc2=False\nOpenSSL:no_rc4=False\nOpenSSL:no_rc5=False\nOpenSSL:no_rsa=False\nOpenSSL:no_sha=False\nOpenSSL:no_sse2=False\nOpenSSL:no_threads=False\nOpenSSL:no_zlib=False\nOpenSSL:openssldir=None\nOpenSSL:shared=False\nlibcurl:custom_cacert=False\nlibcurl:disable_threads=False\nlibcurl:fPIC=True\nlibcurl:shared=False\nlibcurl:with_brotli=False\nlibcurl:with_largemaxwritesize=False\nlibcurl:with_ldap=False\nlibcurl:with_libidn=False\nlibcurl:with_libmetalink=False\nlibcurl:with_libpsl=False\nlibcurl:with_librtmp=False\nlibcurl:with_libssh2=False\nlibcurl:with_nghttp2=False\nlibcurl:with_openssl=True\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "modified": "built",
+    "requires": [
+     "2"
+    ]
+   },
+   "2": {
+    "pref": "libcurl/7.60.0@bincrafters/stable#0:b6dbf799dd7e6d1c740e159bea361666320a3db8#eed5141c1448f4fad5a8726e464b81e7",
+    "options": "custom_cacert=False\ndisable_threads=False\nfPIC=True\nshared=False\nwith_brotli=False\nwith_largemaxwritesize=False\nwith_ldap=False\nwith_libidn=False\nwith_libmetalink=False\nwith_libpsl=False\nwith_librtmp=False\nwith_libssh2=False\nwith_nghttp2=False\nwith_openssl=True\nOpenSSL:386=False\nOpenSSL:fPIC=True\nOpenSSL:no_asm=False\nOpenSSL:no_async=False\nOpenSSL:no_bf=False\nOpenSSL:no_cast=False\nOpenSSL:no_des=False\nOpenSSL:no_dh=False\nOpenSSL:no_dsa=False\nOpenSSL:no_dso=False\nOpenSSL:no_hmac=False\nOpenSSL:no_md2=False\nOpenSSL:no_md5=False\nOpenSSL:no_mdc2=False\nOpenSSL:no_rc2=False\nOpenSSL:no_rc4=False\nOpenSSL:no_rc5=False\nOpenSSL:no_rsa=False\nOpenSSL:no_sha=False\nOpenSSL:no_sse2=False\nOpenSSL:no_threads=False\nOpenSSL:no_zlib=False\nOpenSSL:openssldir=None\nOpenSSL:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "3",
+     "4"
+    ]
+   },
+   "3": {
+    "pref": "OpenSSL/1.1.1c@conan/stable#0:4bed5bcecebb11c5b891863880f3ef10411fb2da#92f2275686a0deb1cc1295237da714ca",
+    "options": "386=False\nfPIC=True\nno_asm=False\nno_async=False\nno_bf=False\nno_cast=False\nno_des=False\nno_dh=False\nno_dsa=False\nno_dso=False\nno_hmac=False\nno_md2=False\nno_md5=False\nno_mdc2=False\nno_rc2=False\nno_rc4=False\nno_rc5=False\nno_rsa=False\nno_sha=False\nno_sse2=False\nno_threads=False\nno_zlib=False\nopenssldir=None\nshared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "4"
+    ]
+   },
+   "4": {
+    "pref": "zlib/1.2.11@conan/stable#0:3a5f72c8cd50641b8efa6ed13e6914c6ced2747c#0",
+    "options": "fPIC=True\nminizip=False\nshared=False"
+   }
+  }
+ },
+ "version": "0.3"
+}

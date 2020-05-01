@@ -1,0 +1,77 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.8
+    os=Linux
+
+[requires]
+    myIP/0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=4.8
+    os=Linux
+
+[full_requires]
+    OpenSSL/1.1.1c@conan/stable:4bed5bcecebb11c5b891863880f3ef10411fb2da
+    libcurl/7.60.0@bincrafters/stable:b6dbf799dd7e6d1c740e159bea361666320a3db8
+    myIP/0.1@user/channel:674eefcd35add5fa26900cd0ec75ec6bd3f15c8f
+    zlib/1.2.11@conan/stable:3a5f72c8cd50641b8efa6ed13e6914c6ced2747c
+
+[full_options]
+    OpenSSL:386=False
+    OpenSSL:fPIC=True
+    OpenSSL:no_asm=False
+    OpenSSL:no_async=False
+    OpenSSL:no_bf=False
+    OpenSSL:no_cast=False
+    OpenSSL:no_des=False
+    OpenSSL:no_dh=False
+    OpenSSL:no_dsa=False
+    OpenSSL:no_dso=False
+    OpenSSL:no_hmac=False
+    OpenSSL:no_md2=False
+    OpenSSL:no_md5=False
+    OpenSSL:no_mdc2=False
+    OpenSSL:no_rc2=False
+    OpenSSL:no_rc4=False
+    OpenSSL:no_rc5=False
+    OpenSSL:no_rsa=False
+    OpenSSL:no_sha=False
+    OpenSSL:no_sse2=False
+    OpenSSL:no_threads=False
+    OpenSSL:no_zlib=False
+    OpenSSL:openssldir=None
+    OpenSSL:shared=False
+    libcurl:custom_cacert=False
+    libcurl:disable_threads=False
+    libcurl:fPIC=True
+    libcurl:shared=False
+    libcurl:with_brotli=False
+    libcurl:with_largemaxwritesize=False
+    libcurl:with_ldap=False
+    libcurl:with_libidn=False
+    libcurl:with_libmetalink=False
+    libcurl:with_libpsl=False
+    libcurl:with_librtmp=False
+    libcurl:with_libssh2=False
+    libcurl:with_nghttp2=False
+    libcurl:with_openssl=True
+    myIP:shared=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+

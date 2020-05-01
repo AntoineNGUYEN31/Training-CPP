@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/minwoo/.conan/data/myIP/0.1/user/channel/package/674eefcd35add5fa26900cd0ec75ec6bd3f15c8f/include/myIP.h
+
+/home/minwoo/TMP/Training-CPP/06-my-IP/test_package/example.cpp
+iostream
+-
+myIP.h
+/home/minwoo/TMP/Training-CPP/06-my-IP/test_package/myIP.h
+
