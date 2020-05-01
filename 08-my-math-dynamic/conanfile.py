@@ -2,7 +2,7 @@ from conans import ConanFile, CMake, tools
 
 
 class HelloConan(ConanFile):
-    name = "myCalculator"
+    name = "myMathDynamic"
     version = "0.1"
     license = "<Put the package license here>"
     author = "<Put your name here> <And your email here>"
@@ -10,13 +10,10 @@ class HelloConan(ConanFile):
     description = "<Description of Hello here>"
     topics = ("<Put some tag here>", "<here>", "<and here>")
     settings = "os", "compiler", "build_type", "arch"
-    #options = {"shared": [True, False]}
-    options = {"shared": [True]}
-    #default_options = {"shared": False}
-    default_options = {"shared": True}
+    options = {"shared": [True, False]}
+    default_options = {"shared": False}
     generators = "cmake"
     exports_sources = "src/*"
-    requires = "myMath/0.1@demo/test"
 
     def build(self):
         cmake = CMake(self)
@@ -36,8 +33,7 @@ class HelloConan(ConanFile):
         self.copy("*.so", dst="lib", keep_path=False)
         self.copy("*.dylib", dst="lib", keep_path=False)
         self.copy("*.a", dst="lib", keep_path=False)
-        self.copy("*", dst="bin", keep_path=False)
 
     def package_info(self):
-        self.cpp_info.libs = ["hello"]
+        self.cpp_info.libs = ["myMath"]
 
