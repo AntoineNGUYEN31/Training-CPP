@@ -10,13 +10,12 @@ class HelloConan(ConanFile):
     description = "<Description of Hello here>"
     topics = ("<Put some tag here>", "<here>", "<and here>")
     settings = "os", "compiler", "build_type", "arch"
-    options = {"shared": [False]}
+    options = {"shared": [True, False]}
     default_options = {"shared": False}
     generators = "cmake"
     exports_sources = "src/*"
-    #requires = "libcurl/7.60.0@bincrafters/stable"
-    #requires = "simpleCURL/0.0.1@antoine/centos7"
-    requires = "simpleCURL/0.0.1@demo/iso"
+    requires = "libcurl/7.60.0@bincrafters/stable"
+
     def build(self):
         cmake = CMake(self)
         cmake.configure(source_folder="src")
